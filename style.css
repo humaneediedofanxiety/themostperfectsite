@@ -102,4 +102,12 @@ main {
   padding: 2rem;
 }
 
+@media (max-width: 768px) {
+  .post-content {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
 
