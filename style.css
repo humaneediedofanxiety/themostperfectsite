@@ -43,6 +43,7 @@ nav li {
 
 nav a {
   color: inherit;
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -54,7 +55,51 @@ nav a {
   height: 80vh;
 }
 
+.post-links {
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.post-list {
+  list-style-type: circle
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 70%
+}
+
+.heading {
+  font-size: 28px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.meta-data {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.content {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
   padding: 2rem;
 }
+
 
