@@ -101,7 +101,12 @@ nav a {
 }
 
 .done {
-  text-decoration: underline;
+  text-decoration: line-through;
+}
+
+ol>li {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 main {
