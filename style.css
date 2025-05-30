@@ -17,6 +17,9 @@ body {
   font-style: normal;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
 
 nav {
   display: flex;
